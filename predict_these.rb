@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'possible_emails.rb'
 
 margaery = PossibleEmails.new("Margaery Tyrell", "ironthrone.com")

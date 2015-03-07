@@ -1,11 +1,9 @@
-require 'pry'
-
 class PossibleEmails
 
   attr_accessor :fname, :lname, :domain, :name
 
   def initialize(name, domain)
-    @name = name.downcase
+    @name = name
     @fname = name.downcase.split(" ")[0]
     @lname = name.downcase.split(" ")[1]
     @domain = "@" + domain
